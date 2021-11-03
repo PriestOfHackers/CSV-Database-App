@@ -1,5 +1,7 @@
-<app-header></app-header>
-<h1> webTonic App</h1>
+<div class="topnav">
+    <a class="active" href="#home">WebTonic</a>
+  </div> 
 
-<Button>Upload CSV</Button>
-<table>My Table</table>
+
+
+<input type="file" (change)="onFileChanged($event)">
